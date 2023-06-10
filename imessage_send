@@ -1,0 +1,9 @@
+tell application "Messages"
+	set targetBuddy to participant "+12170000000"
+	
+	repeat 500 times -- Change the number '5' to the desired number of messages
+		send "LET'S MAKE SOMETHING!!!!!!!!!!!!!!!" to targetBuddy
+		delay 0.1  -- Adjust the delay (in seconds) between each message if needed
+	end repeat
+end tell
+
